@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Load Images</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .image-container {
+            width: 100%;
+            height: auto;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 20px;
+            background: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lazy Load Images Demo</h1>
+    <p>Scroll down to load more images...</p>
+    <div class="image-container">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1470117636341-75589a68dbcf" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1496449903678-68ddcb189a24" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1519681393784-d120267933ba" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1453282716202-de94e528067c" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1472393365320-db77a5abbecc" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1437482078695-73f5ca6c96e8" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1426604966848-d7adac402bff" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1486663845017-3eedaa78617f" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1495344517868-8ebaf0a2044a" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1470770903676-69b98201ea1c" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1521747116042-5a810fda9664" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1519681393784-d120267933ba" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1470117636341-75589a68dbcf" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1496449903678-68ddcb189a24" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1437482078695-73f5ca6c96e8" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1521747116042-5a810fda9664" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1470770903676-69b98201ea1c" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1521747116042-5a810fda9664" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1470117636341-75589a68dbcf" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1496449903678-68ddcb189a24" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1437482078695-73f5ca6c96e8" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1521747116042-5a810fda9664" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1470770903676-69b98201ea1c" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1521747116042-5a810fda9664" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1470117636341-75589a68dbcf" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1496449903678-68ddcb189a24" alt="Lazy Image">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa" alt="Lazy Image">
+        
+        <!-- Tambahkan hingga 40 gambar -->
+    </div>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let lazyImages = document.querySelectorAll(".lazy");
+            let observer = new IntersectionObserver(function (entries, observer) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        let img = entry.target;
+                        img.src = img.getAttribute("data-src");
+                        img.classList.remove("lazy");
+                        observer.unobserve(img);
+                    }
+                });
+            });
+            lazyImages.forEach(img => {
+                observer.observe(img);
+            });
+        });
+    </script>
+</body>
+</html>
